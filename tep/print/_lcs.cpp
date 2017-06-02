@@ -134,9 +134,6 @@ int main(){
 
     int n = lis(v);
     cout << "tamanho do lcs: " << n << endl;
-    // indices de T => t[dp[i]]
-    for(int i=1;i<=n;i++) cout << dp[i] << " ";
-    cout << endl;
 
     cout << lcs(s, t) << endl;
 
